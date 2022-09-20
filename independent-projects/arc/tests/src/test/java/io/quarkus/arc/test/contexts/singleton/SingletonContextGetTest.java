@@ -9,9 +9,9 @@ import io.quarkus.arc.InjectableBean;
 import io.quarkus.arc.InjectableContext;
 import io.quarkus.arc.impl.CreationalContextImpl;
 import io.quarkus.arc.test.ArcTestContainer;
+import jakarta.enterprise.context.RequestScoped;
+import jakarta.inject.Singleton;
 import java.util.List;
-import javax.enterprise.context.RequestScoped;
-import javax.inject.Singleton;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.RegisterExtension;
 
